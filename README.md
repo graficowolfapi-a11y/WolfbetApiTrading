@@ -1,7 +1,11 @@
-🐺 Wolfbet Trading Robot APIEste repositorio contiene la documentación y ejemplos de código para interactuar con la API de configuración del Robot de Trading de Wolfbet.Esta API permite a los usuarios enviar y actualizar los parámetros de configuración de su 
+🐺 Wolfbet Trading Robot API
+
+Este repositorio contiene la documentación y ejemplos de código para interactuar con la API de configuración del Robot de Trading de Wolfbet.Esta API permite a los usuarios enviar y actualizar los parámetros de configuración de su 
 robot de trading de forma remota, automatizando estrategias como la Martingala, gestión de Take Profit, Stop Loss y el uso de indicadores técnicos (RSI, MVA).
 
-🚀 Funcionalidad Principal: ConfiguraciónLa API funciona a través de un único endpoint que recibe una solicitud POST con un cuerpo JSON para configurar todos los parámetros del robot de trading en tiempo real.Endpoint|| Método | URL | Descripción || POST | 
+🚀 Funcionalidad Principal: 
+
+ConfiguraciónLa API funciona a través de un único endpoint que recibe una solicitud POST con un cuerpo JSON para configurar todos los parámetros del robot de trading en tiempo real.Endpoint|| Método | URL | Descripción || POST | 
 https://wolfbetrobot.me/REQUEST_API.php?submit=enviar | Envía la configuración completa del robot.
 
 |AutenticaciónLa autenticación se realiza enviando la clave API (JWT) dentro del cuerpo de la solicitud JSON, utilizando el parámetro APIKEY.
